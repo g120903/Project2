@@ -1,0 +1,48 @@
+body {
+  background-color: Orange;
+}
+
+.grid{
+	grid-template-columns: 400px 400px 400px;
+	grid-template-rows: 300px 300px 300px;
+	display: grid;
+	grid-gap: 150px;
+Grid-row-start:2;
+ grid-row-end:2 ;
+   
+}
+h1{
+	 border: black solid 5px;
+	 font-size:50px ;
+	 font-family:Impact, fantasy ;
+	 color: white;
+	 text-align:center;
+}
+
+
+
+.item1{
+	border: white solid 6px;
+	front-size: 5px;
+  
+}
+
+.item2{
+	border:White solid 6px;
+ 
+}
+.item3{
+	border: White solid 6px;
+  
+}
+.item4{
+	border: White solid 6px;
+	grid-column-start: 3;
+  grid-column-end:2;
+  
+}
+
+div {
+  width: 150px;
+  padding: 80px;
+  margin: 50px;
